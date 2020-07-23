@@ -3,6 +3,7 @@ package by.ita.yanushkevich.les_02;
 /*
 Требуется определить факториал числа, которое ввел пользователь.
  */
+
 //Таблица факториалов
 //https://scolaire.ru/tablica_faktorialov.php
 //при значении variable>20 уже не хватает лонга
