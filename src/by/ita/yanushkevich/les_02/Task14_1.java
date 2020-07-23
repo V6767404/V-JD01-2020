@@ -20,9 +20,6 @@ public class Task14_1 {
                 if (i == n) {
                     break;
                 }
-
             }
-
         }
-
     }
