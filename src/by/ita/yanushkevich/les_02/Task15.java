@@ -1,6 +1,5 @@
 package by.ita.yanushkevich.les_02;
 
-
 /*
 Найти НОД двух целых положительных чисел
  */
