@@ -8,12 +8,12 @@ public class Task03_1 {
         int[] array = {1, 2, 3, 4, 5, 1, 7, 8, 9};
         String a = "Данная последовательность является возрастающей";
 
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println();
 
-        for (int i = 0; i < array.length-1; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             if (array[i + 1] < array[i]) {
                 a = "Данная последовательность НЕ является возрастающей";
                 break;

@@ -6,11 +6,15 @@ package by.ita.yanushkevich.les_02;
 // Алгоритм Евклида работает для целых положительных чисел
 //https://habr.com/ru/post/205106/
 
+/*
+Найти НОД двух целых положительных чисел
+ */
+
 public class Task15 {
     public static void main(String[] args) {
-        int a, a1, b, b1;
-        a=a1=64;
-        b=b1=12;
+        int a = 64;
+        int b = 12;
+        int a1 = a;
 
         while (a != b) {
             if (a > b) {
@@ -19,6 +23,6 @@ public class Task15 {
                 b = b - a;
             }
         }
-        System.out.println("НОД чисел" + a1 + " и "+ b1 + " равен " + a );
+        System.out.println("НОД чисел" + a1 + " и " + b + " равен " + a);
     }
 }

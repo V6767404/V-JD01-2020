@@ -6,7 +6,7 @@ package by.ita.yanushkevich.les_02;
 // (b + sqrt(b^2 + 4*a*c)) / 2a - a^3*c + b^(-2)
 
 //Ctrl+/ или Ctrl+Alt+L - ырщкесге for comment
-//Ctrl+Alt+L -code allignment
+//Ctrl+Alt+L (IDEA) -code allignment.  Ctrl + Shift + F (eclipse)
 
 public class Task01 {
     public static void main(String[] args) {
@@ -17,12 +17,14 @@ public class Task01 {
 
         result = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a) - Math.pow(a, 3) * c + Math.pow(b, -2);
         System.out.println(result);
-        System.out.printf("%f" , result); //стандартный вывод шесть знаков после запятой
+        System.out.printf("%f", result); //стандартный вывод шесть знаков после запятой
         System.out.println();
-        System.out.printf("%.3f%n" , result); //вывод с округлением 3 знаков после запятой, %n - перевод строки на новую
-        System.out.printf("[%-10.3f]%n" , result); //дополнительно рамка вывода и выравнивание по левому краю
-        System.out.printf("[%f] %f" , result, a);
-       // printf ()  https://www.codeflow.site/ru/article/java-printstream-printf
+        System.out.printf("%.3f%n", result); //вывод с округлением 3 знаков после запятой, %n - перевод строки на новую
+        System.out.printf("[%-10.3f]%n", result); //дополнительно рамка вывода и выравнивание по левому краю
+        System.out.printf("[%f] %f", result, a);
+
+
+        // printf ()  https://www.codeflow.site/ru/article/java-printstream-printf
     }
 
 }

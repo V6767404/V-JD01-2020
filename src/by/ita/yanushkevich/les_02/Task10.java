@@ -8,7 +8,7 @@ public class Task10 {
     public static void main(String[] args) {
         int a = 2;
         while (a < 102){
-            System.out.println(a);
+            System.out.print(a + " ");
             a = a + 2;
         }
     }

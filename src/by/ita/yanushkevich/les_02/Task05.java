@@ -6,13 +6,18 @@ package by.ita.yanushkevich.les_02;
 
 public class Task05 {
     public static void main(String[] args) {
+
         int first = 11;
-        int second = 11;
+        int second = 12;
+
         if (first < second) {
             System.out.println("Первое число меньше");
-        }
-        else{
+        } else if (first > second) {
             System.out.println("Второе число меньше");
+        } else {
+            System.out.println("Числа равны");
         }
     }
 }
+
+

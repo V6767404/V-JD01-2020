@@ -7,24 +7,23 @@ package by.ita.yanushkevich.les_03;
 
 public class Task03 {
     public static void main(String[] args) {
-        int [] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] array = {1, 2, 3, 1, 5, 6, 7, 8, 9};
         int pointer = 0;
 
         //печатаем массив
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
 
-        for(int i = 1; i < array.length; i++){
-            if(array[i-1] > array[i]){
-                pointer++;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i - 1] > array[i]) {
+                pointer++;  //логичнее использовать не счетчик а флаг (true false)
             }
         }
-        if(pointer != 0){
+        if (pointer != 0) {
             System.out.println();
             System.out.println("Данная последовательность не является возрастающей");
-        }
-        else{
+        } else {
             System.out.println();
             System.out.println("Данная последовательность является возрастающей");
         }

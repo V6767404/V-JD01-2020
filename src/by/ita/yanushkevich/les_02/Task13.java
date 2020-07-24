@@ -15,7 +15,7 @@ public class Task13 {
         int variable;
         int result = 0;
         variable = sc.nextInt();
-        for(int i = variable; i > 0; i--){
+        for (int i = variable; i > 0; i--) {
             result += i;
         }
         System.out.println("Сумма чисел от 1 до введеного числа равна:");

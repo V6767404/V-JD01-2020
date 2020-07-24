@@ -11,15 +11,15 @@ public class Task08 {
 
 
         Random rn = new Random();
-        int [] array = new int [5];
+        int[] array = new int[10];
 
         //заполняем массив случайными элементами
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             array[i] = rn.nextInt(10);
         }
 
         //печатаем массив
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
 
@@ -27,9 +27,9 @@ public class Task08 {
         System.out.println("Числа выполняющие условие:");
 
         //проверяем элементы
-        for(int i = 0; i < array.length; i++){
-            if(array[i] > i){
-                System.out.println(array[i]);
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > i) {
+                System.out.print(array[i] + " ");
             }
         }
 

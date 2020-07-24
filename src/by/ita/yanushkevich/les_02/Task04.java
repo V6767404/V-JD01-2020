@@ -12,8 +12,7 @@ public class Task04 {
         int second = 11;
         if (first < second) {
             System.out.println(7);
-        }
-        else{
+        } else {
             System.out.println(8);
         }
     }

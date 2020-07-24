@@ -9,36 +9,33 @@ import java.util.Random;
 public class Task07 {
     public static void main(String[] args) {
         Random rn = new Random();
-        int [] array = new int [5];
+        int[] array = new int[10];
         int maxpointer = 0;
         int minpointer = 0;
         int helper;
 
-
-
         //заполняем массив случайными элементами
-        for(int i = 0; i < array.length; i++){
-            array[i] = rn.nextInt(1000);
+        for (int i = 0; i < array.length; i++) {
+            array[i] = rn.nextInt(1000) - 500;
         }
 
         int max = array[0];
         int min = array[0];
 
         //печатаем массив
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
 
         System.out.println();
 
         //ищем индексы минимального и максимального элементов
-        for(int i = 0; i < array.length; i++){
-            if(array[i] > max) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max) {
                 max = array[i];
                 maxpointer = i;
             }
-
-            if(array[i] < min){
+            if (array[i] < min) {
                 min = array[i];
                 minpointer = i;
             }
@@ -52,7 +49,7 @@ public class Task07 {
         array[maxpointer] = helper;
 
         //печатаем получившейся массив
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
     }
