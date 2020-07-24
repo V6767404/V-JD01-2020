@@ -26,7 +26,7 @@ public class Task10 {
         }
         System.out.println();
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length / 2; i++) {
 
             if (max < array[i] + array[last]) {
                 max = array[i] + array[last];

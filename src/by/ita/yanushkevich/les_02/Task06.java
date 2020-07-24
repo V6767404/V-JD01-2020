@@ -8,7 +8,7 @@ package by.ita.yanushkevich.les_02;
 public class Task06 {
     public static void main(String[] args) {
         int angle1 = 45;
-        int angle2 = 45;
+        int angle2 = 46;
 
         if (angle1 + angle2 < 180) {
             System.out.println("Треугольник с данными углами будет существовать");

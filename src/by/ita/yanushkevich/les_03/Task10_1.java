@@ -22,16 +22,18 @@ public class Task10_1 {
         }
         System.out.println();
 
-//        int last = array.length - 1;
-        int max = 0;
 
-        for (int i = 0; i < array.length/2; i++) {
-//            System.out.print(i + " ");
-//            System.out.println(last + " ");
-            if (max < array[i] + array[array.length-1-i]) {
-                max = array[i] + array[array.length-1-i];
+        int max = 0;
+        int sum = 0;
+
+        for (int i = 0; i < array.length / 2; i++) {
+
+            sum = array[i] + array[array.length - 1 - i];
+
+            if (max < sum) {
+                max = sum;
             }
- //            last--;
+
         }
         System.out.println("максимальная сумма элементов выполняющих условие задания " + max);
 
