@@ -7,9 +7,8 @@ package by.ita.yanushkevich.les_04;
 
 public class Task12 {
     public static void main(String[] args) {
-        // создаем двумерный массив из случайных чисел из отрезка [0;1]
-        int[][] mas = new int[7][5];
 
+        int[][] mas = new int[7][5];
 
         for (int j = 0; j < mas.length; j++) {
 
