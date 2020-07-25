@@ -10,10 +10,10 @@ public class Task12 {
 
         int[][] mas = new int[7][5];
 
-        for (int j = 0; j < mas.length; j++) {
+        for (int i = 0; i < mas.length; i++) {
 
-            mas[j][0] = 5;
-            mas[j][mas[0].length-1] = 1;
+            mas[i][0] = 5;
+            mas[i][mas[0].length-1] = 1;
 
         }
 
