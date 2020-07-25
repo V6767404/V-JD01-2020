@@ -17,7 +17,7 @@ public class Task04 {
         for (int i = 0; i < mas.length; i++) {
             if (i % 2 == 0) {
                 for (int j = 0; j < mas[i].length; j++) {
-                    mas[i][j] = j+1;
+                    mas[i][j] = j + 1;
                 }
             } else {
                 for (int j = 0; j < mas[i].length; j++) {

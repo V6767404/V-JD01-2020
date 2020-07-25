@@ -8,7 +8,7 @@ package by.ita.yanushkevich.les_04;
 public class Task03 {
     public static void main(String[] args) {
         int[][] mas =
-                       {{10, 11, 12, 13, 14},
+                {{10, 11, 12, 13, 14},
                         {15, 16, 17, 18, 19},
                         {20, 21, 22, 23, 24},
                         {25, 26, 27, 28, 29},

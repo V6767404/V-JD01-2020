@@ -16,8 +16,8 @@ public class Task05 {
 
         for (int i = 0; i < mas.length; i++) {
             for (int j = 0; j < mas[i].length; j++) {
-                if (j == mas[i].length-1-i)
-                    mas[i][j] = i+1;
+                if (j == mas[i].length - 1 - i)
+                    mas[i][j] = i + 1;
             }
         }
 
