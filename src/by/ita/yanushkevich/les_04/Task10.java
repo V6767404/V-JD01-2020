@@ -23,7 +23,8 @@ public class Task10 {
             }
            System.out.println();
         }
-        System.out.println("----------------");
+        System.out.println();
+
         // решение в лоб перебором всех элементов матрицы
 
         for (int i = 0; i < mas.length; i++) {
