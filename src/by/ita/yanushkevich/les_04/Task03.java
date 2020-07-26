@@ -28,11 +28,12 @@ public class Task03 {
         for (int i = 0; i < mas.length; i++) {
 
             if (i % 2 == 0) {
-                for (int j = 0; j < mas[i].length; j++) {
+                for (int j = mas[i].length - 1; j > -1; j--) {  //
                     System.out.print(mas[i][j] + "\t");
+
                 }
             } else {
-                for (int j = mas[i].length - 1; j > -1; j--) {
+                for (int j = 0; j < mas[i].length; j++) {
                     System.out.print(mas[i][j] + "\t");
                 }
             }

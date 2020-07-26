@@ -9,20 +9,15 @@ import java.util.Random;
 
 public class Task05_1 {
     public static void main(String[] args) {
-        Random rn = new Random();
-        int[] array = new int[5];
-        int min = 999;
-        int max = -999;
+        int[] array = {1, 55, 0, 3, 7, 9, -44, 10};
 
-        //заполняем массив случайными элементами
-        for (int i = 0; i < array.length; i++) {
-            array[i] = rn.nextInt(1000) - 500;
-        }
-
-        //печатаем массив
+       //печатаем массив
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+
+        int max = array[0];
+        int min = array[0];
 
         for (int i = 0; i < array.length; i++) {
 
@@ -33,7 +28,6 @@ public class Task05_1 {
                 min = array[i];
             }
         }
-
         System.out.println();
         System.out.println("Наименьшая длина числовой оси " + (max - min));
     }
