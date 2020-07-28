@@ -10,16 +10,16 @@ public class Les06Theme01 {
 
         System.out.println("-----1");
 
-        System.out.println(str1 == str2);
-        System.out.println(str1.equals(str2));
-        System.out.println(str1 == str3); // сслыки разные
-        System.out.println(str1.equals(str3));
+        System.out.println(str1 == str2); //true
+        System.out.println(str1.equals(str2)); //true
+        System.out.println(str1 == str3); // сслыки разные false
+        System.out.println(str1.equals(str3)); //true
 
         System.out.println("-----2");
 
         str3 = str3.intern(); // https://youtu.be/d6WuEw19sHg?list=PLZ49j3s2FXoxpI_SrSMv-ScY2eYpnsQrk&t=1673
-        System.out.println(str1 == str3); //ссылки стали ссылаться на один объект т.е. равны
-        System.out.println(str1.equals(str3));
+        System.out.println(str1 == str3); //ссылки стали ссылаться на один объект т.е. равны =true
+        System.out.println(str1.equals(str3)); //true
 
         // какой ссмысл размещать строку в пул литералов .intern() ??
 
